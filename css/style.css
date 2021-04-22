@@ -1,3 +1,5 @@
+@import 'utilities.css';
+
 :root {
     --primary: #3DCFD3;
     --dark: #161616;
@@ -12,9 +14,29 @@
     box-sizing: border-box;
     -webkit-font-smoothing: antialiased;
 }
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
 header {
     background: var(--dark);
     height: 800px;
+}
+
+header nav .left a {
+    color: var(--pure);   
+    text-decoration: none;
+    margin-right: 2rem;
+    text-transform: uppercase;
+}
+   
+header nav .left a:hover {
+    color: var(--primary);
+}
+
+header nav {
+    padding: 2rem 0;
 }
 
 .container {
@@ -23,7 +45,6 @@ header {
     margin: 0 auto;
 }
 
-header nav .left a {
- color: var(--pure);   
- text-decoration: none;
+.branding {
+    margin-right: 3rem;
 }
