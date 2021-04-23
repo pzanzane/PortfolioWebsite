@@ -57,8 +57,8 @@ header nav {
     border: 2px solid transparent;
     outline: none;
     cursor: pointer;
-    text-transform: uppercase;
     transition: all .3s ease;
+    text-transform: uppercase;
 }
 
 .btn-primary {
