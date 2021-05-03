@@ -26,7 +26,24 @@ header {
     clip-path: polygon(0 0, 100% 0, 100% 100%, 70% 87%, 0 100%);
 }
 
-header nav .left a {
+.container {
+    max-width: 1152px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+header nav {
+    padding: 0.5rem 0;
+}
+
+header nav .left .branding h1{
+    padding: 0.5rem 0;
+    color: var(--pure);
+    margin-left: 2rem;
+    font-weight: 100;
+}
+
+header nav .right a {
     color: var(--pure);   
     text-decoration: none;
     margin-right: 2rem;
@@ -34,18 +51,13 @@ header nav .left a {
     transition: all .5s ease-in-out;
 }
    
-header nav .left a:hover {
+header nav .right a:hover {
     color: var(--primary);
 }
 
-header nav {
-    padding: 2rem 0;
-}
-
-.container {
-    max-width: 1152px;
-    padding: 0 15px;
-    margin: 0 auto;
+header nav .left .branding img {
+    width: 50px;
+    border-radius: 50%;
 }
 
 .branding {
@@ -53,14 +65,13 @@ header nav {
 }
 
 .btn {
-    padding: 0.8rem 3rem;
+    padding: 0.5rem 1.5rem;
     font-size: 1rem;
     font-weight: 600;
     border: 2px solid transparent;
     outline: none;
     cursor: pointer;
     transition: all .3s ease;
-    text-transform: uppercase;
 }
 
 .btn-primary {
@@ -78,6 +89,7 @@ header nav {
     background: transparent;
     border-color: var(--primary);
     color: var(--primary);
+    text-transform: uppercase;
 }
 
 .btn-secondary:hover {
