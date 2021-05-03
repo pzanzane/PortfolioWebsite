@@ -119,3 +119,40 @@ padding: 3rem 0;
 .hero .right h1 span{
     color: var(--primary);
 }
+
+section {
+    padding: 6rem 0;
+}
+
+.about .container .about-me-img {
+    height: 450px;
+}
+
+.about .container .info h1 {
+    font-weight: 100;
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.about .container .info h3 {
+    font-weight: 100;
+    font-size: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+.about .container .info p {
+    font-family: 'Lato' sans-serif;
+    color: var(--ternary);
+    line-height: 1.9rem;
+    font-weight: 400;
+    font-size: 1rem;
+    margin-bottom: 2rem;
+}
+
+.about .container .info span{
+    color: var(--primary);
+}
+
+.about .container .info .social a {
+    width: 35px;
+}
